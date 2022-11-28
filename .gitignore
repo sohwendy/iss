@@ -74,6 +74,6 @@ yarn-debug.log*
 !/workshop01/tmp/pids/
 !/workshop01/tmp/pids/.keep
 
-# Ignore uploaded files in development.
-
-
+# ignore packing files
+/rails-default/*
+*.zip
