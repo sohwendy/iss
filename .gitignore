@@ -1,25 +1,25 @@
 *.rbc
 capybara-*.html
 .rspec
-/db/*.sqlite3
-/db/*.sqlite3-journal
-/db/*.sqlite3-[0-9]*
-/public/system
-/coverage/
-/spec/tmp
+/workshop01/db/*.sqlite3
+/workshop01/db/*.sqlite3-journal
+/workshop01/db/*.sqlite3-[0-9]*
+/workshop01/public/system
+/workshop01/coverage/
+/workshop01/spec/tmp
 *.orig
 rerun.txt
 pickle-email-*.html
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+/workshop01/log/*
+/workshop01/tmp/*
+!/workshop01/log/.keep
+!/workshop01/tmp/.keep
 
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
-config/initializers/secret_token.rb
-config/master.key
+/workshop01/config/initializers/secret_token.rb
+/workshop01/config/master.key
 
 # Only include if you have production secrets in this file, which is no longer a Rails default
 # config/secrets.yml
@@ -29,8 +29,8 @@ config/master.key
 .env
 
 ## Environment normalization:
-/.bundle
-/vendor/bundle
+/workshop01/.bundle
+/workshop01/vendor/bundle
 
 # these should all be checked in to normalize the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
@@ -39,7 +39,7 @@ config/master.key
 .rvmrc
 
 # if using bower-rails ignore default bower_components path bower.json files
-/vendor/assets/bower_components
+/workshop01/vendor/assets/bower_components
 *.bowerrc
 bower.json
 
@@ -50,18 +50,30 @@ bower.json
 .byebug_history
 
 # Ignore node_modules
-node_modules/
+/workshop01/node_modules/
 
 # Ignore precompiled javascript packs
-/public/packs
-/public/packs-test
-/public/assets
+/workshop01/public/packs
+/workshop01/public/packs-test
+/workshop01/public/assets
 
 # Ignore yarn files
-/yarn-error.log
+/workshop01/yarn-error.log
 yarn-debug.log*
 .yarn-integrity
 
 # Ignore uploaded files in development
-/storage/*
-!/storage/.keep
+/workshop01/storage/*
+!/workshop01/storage/.keep
+!/workshop01/tmp/storage/
+!/workshop01/tmp/storage/.keep
+
+
+# Ignore pidfiles, but keep the directory.
+/workshop01/tmp/pids/*
+!/workshop01/tmp/pids/
+!/workshop01/tmp/pids/.keep
+
+# Ignore uploaded files in development.
+
+
