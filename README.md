@@ -29,5 +29,5 @@ References
 1. [Web App using rails](https://guides.rubyonrails.org/getting_started.html)
 2. [Docker](https://docs.docker.com/get-started/02_our_app/)
 3. [Dockerising rails app](https://earthly.dev/blog/rails-with-docker/)
-4. [AWS Elastic Beanstalk]https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/ruby-rails-tutorial.html
+4. [AWS Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/ruby-rails-tutorial.html)
 
