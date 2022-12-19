@@ -1,25 +1,25 @@
 *.rbc
 capybara-*.html
 .rspec
-/workshop01/db/*.sqlite3
-/workshop01/db/*.sqlite3-journal
-/workshop01/db/*.sqlite3-[0-9]*
-/workshop01/public/system
-/workshop01/coverage/
-/workshop01/spec/tmp
+/workshop00/db/*.sqlite3
+/workshop00/db/*.sqlite3-journal
+/workshop00/db/*.sqlite3-[0-9]*
+/workshop00/public/system
+/workshop00/coverage/
+/workshop00/spec/tmp
 *.orig
 rerun.txt
 pickle-email-*.html
 
 # Ignore all logfiles and tempfiles.
-/workshop01/log/*
-/workshop01/tmp/*
-!/workshop01/log/.keep
-!/workshop01/tmp/.keep
+/workshop00/log/*
+/workshop00/tmp/*
+!/workshop00/log/.keep
+!/workshop00/tmp/.keep
 
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
-/workshop01/config/initializers/secret_token.rb
-/workshop01/config/master.key
+/workshop00/config/initializers/secret_token.rb
+/workshop00/config/master.key
 
 # Only include if you have production secrets in this file, which is no longer a Rails default
 # config/secrets.yml
@@ -29,8 +29,8 @@ pickle-email-*.html
 .env
 
 ## Environment normalization:
-/workshop01/.bundle
-/workshop01/vendor/bundle
+/workshop00/.bundle
+/workshop00/vendor/bundle
 
 # these should all be checked in to normalize the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
@@ -39,7 +39,7 @@ pickle-email-*.html
 .rvmrc
 
 # if using bower-rails ignore default bower_components path bower.json files
-/workshop01/vendor/assets/bower_components
+/workshop00/vendor/assets/bower_components
 *.bowerrc
 bower.json
 
@@ -50,29 +50,29 @@ bower.json
 .byebug_history
 
 # Ignore node_modules
-/workshop01/node_modules/
+/workshop00/node_modules/
 
 # Ignore precompiled javascript packs
-/workshop01/public/packs
-/workshop01/public/packs-test
-/workshop01/public/assets
+/workshop00/public/packs
+/workshop00/public/packs-test
+/workshop00/public/assets
 
 # Ignore yarn files
-/workshop01/yarn-error.log
+/workshop00/yarn-error.log
 yarn-debug.log*
 .yarn-integrity
 
 # Ignore uploaded files in development
-/workshop01/storage/*
-!/workshop01/storage/.keep
-!/workshop01/tmp/storage/
-!/workshop01/tmp/storage/.keep
+/workshop00/storage/*
+!/workshop00/storage/.keep
+!/workshop00/tmp/storage/
+!/workshop00/tmp/storage/.keep
 
 
 # Ignore pidfiles, but keep the directory.
-/workshop01/tmp/pids/*
-!/workshop01/tmp/pids/
-!/workshop01/tmp/pids/.keep
+/workshop00/tmp/pids/*
+!/workshop00/tmp/pids/
+!/workshop00/tmp/pids/.keep
 
 # ignore packing files
 /rails-default/*
